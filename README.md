@@ -10,6 +10,10 @@
 composer require sparkinzy/dcat-viewer
 ```
 
-后台启用即可
+后台扩展中 安装-> 启用 即可
+
+## 预览
+
+![preview](./preview.png)
 
 
