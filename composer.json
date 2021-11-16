@@ -1,0 +1,32 @@
+{
+    "name": "sparkinzy/dcat-viewer",
+    "alias": "dcat-viewer",
+    "description": "dcat admin 图片预览增强插件...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/sparkinzy/dcat-viewer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sparkinzy",
+            "email": "sparkinzy@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sparkinzy\\DcatViewer\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Sparkinzy\\DcatViewer\\DcatViewerServiceProvider",
+        "laravel": {
+            "providers": [
+                "Sparkinzy\\DcatViewer\\DcatViewerServiceProvider"
+            ]
+        }
+    }
+}
