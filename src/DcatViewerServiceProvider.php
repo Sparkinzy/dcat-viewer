@@ -38,8 +38,4 @@ JS
 
     }
 
-//	public function settingForm()
-//	{
-//		return new Setting($this);
-//	}
 }
