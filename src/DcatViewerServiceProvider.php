@@ -28,7 +28,7 @@ class DcatViewerServiceProvider extends ServiceProvider
 Dcat.helpers.previewImage=function(url){
     const img = $('<img src="'+url+'"/>');
     const viewer = new Viewer(img[0],{
-        zIndex:19900909
+        zIndex:99999999
     })
     viewer.show();
     return false;
